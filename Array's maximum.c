@@ -10,6 +10,20 @@ int maxTab(int T[],int N){
     }
 return max;
 }
+
+// Making code short 
+/*
+int maxTab(int T[], int N)
+{
+    int i, max = 0;
+    for(i = 0; i<N; i++)
+        if(T[i]>max)
+                max = T[i];
+    return (max);
+}
+*/
+
+
 int main()
 {
     int N,i;
